@@ -1,0 +1,54 @@
+.reserveNotice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #236ea9;
+  background: #e9f4ff;
+  border-radius: 13px;
+  padding: 11px 13px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.reserveNotice svg { width: 17px; }
+.truckIcon svg + svg {
+  top: 31px;
+  left: 34px;
+  width: 17px;
+  height: 17px;
+  color: #236fae;
+  stroke-width: 2.7;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.8));
+}
+.routeOverview {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 8px 1px 16px;
+  margin-bottom: 4px;
+}
+.routeOverview > small { color: #2878b9; font-size: 10px; font-weight: 800; }
+.routeOverview h2 { margin: 4px 0 15px; font-size: 17px; letter-spacing: -.4px; }
+.routeOverview > p { color: #71869a; font-size: 9px; margin: 13px 0 0; }
+.routeFlow { display: flex; align-items: stretch; gap: 7px; overflow-x: auto; padding: 2px 1px 5px; scrollbar-width: none; }
+.routeFlow::-webkit-scrollbar { display: none; }
+.routeFlow > b { align-self: center; color: #7eaed5; font-size: 14px; }
+.routeFlow button, .destinationNode {
+  min-width: 112px;
+  min-height: 78px;
+  border: 1.5px solid #c8deef;
+  border-radius: 15px;
+  background: rgba(255,255,255,.82);
+  color: #45647e;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  gap: 2px;
+  cursor: pointer;
+}
+.routeFlow button.active { color: #fff; background: #2c7fc1; border-color: #2c7fc1; box-shadow: 0 7px 18px rgba(44,127,193,.2); }
+.routeFlow button svg, .destinationNode svg { width: 17px; height: 17px; }
+.routeFlow button span, .destinationNode span { font-size: 11px; font-weight: 800; white-space: nowrap; }
+.routeFlow button small, .destinationNode small { font-size: 8px; opacity: .78; white-space: nowrap; }
+.destinationNode { cursor: default; color: #275f8a; }
+.targetCharge { display: flex; align-items: center; justify-content: space-between; margin: -5px 0 15px; padding: 11px 14px; background: #eef6fd; border-radius: 12px; color: #60788e; font-size: 11px; }
+.targetCharge b { color: #2478bb; font-size: 17px; }

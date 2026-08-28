@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{.venv/**,artifacts/**,docs/**,outputs/**,backend/scripts/**,backend/data/ev_energy_consumption.csv,backend/model/*.pkl,**/__pycache__/**,**/*.pyc}"
+    }
+  }
+}
