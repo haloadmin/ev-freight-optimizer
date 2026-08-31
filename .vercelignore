@@ -1,0 +1,13 @@
+.venv
+artifacts
+docs
+outputs
+backend/scripts
+backend/data/ev_energy_consumption.csv
+backend/model/*.pkl
+backend/model/*.ubj
+node_modules
+*.ipynb
+*.inspect.ndjson
+__pycache__
+*.pyc

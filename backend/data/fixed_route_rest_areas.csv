@@ -1,0 +1,12 @@
+﻿route_order,rest_area_name,direction,expressway,busan_origin_km,distance_from_prev_rest_area_km,truck_lounge_flag,distance_from_anseong_km,charger_total,charger_available,charger_in_use,charger_unavailable,max_output_kw,fast_charger_count,high_capacity_charger_flag,static_lounge_bonus,dynamic_charger_bonus,service_bonus_score,stat_ids,api_last_updated,notes
+1,안성휴게소,부산,경부고속도로,361,,0,0,,,,,,,,0,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+2,망향휴게소,부산,경부고속도로,344,17,0,17,,,,,,,,0,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+3,천안호두휴게소,부산,경부고속도로,324,20,0,37,,,,,,,,0,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+4,옥산휴게소,부산,경부고속도로,309,15,1,52,,,,,,,,1,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+5,죽암휴게소,부산,경부고속도로,288,21,0,73,,,,,,,,0,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+6,옥천휴게소,부산,경부고속도로,256,32,1,105,,,,,,,,1,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+7,금강휴게소,부산,경부고속도로,248,8,0,113,,,,,,,,0,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+8,황간휴게소,부산,경부고속도로,230,18,0,131,,,,,,,,0,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+9,추풍령휴게소,부산,경부고속도로,212,18,1,149,,,,,,,,1,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+10,김천휴게소,부산,경부고속도로,194,18,1,167,,,,,,,,1,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
+11,칠곡휴게소,부산,경부고속도로,159,35,1,202,,,,,,,,1,,,,,충전정보 컬럼은 한국환경공단 EvCharger OpenAPI 조회 후 갱신
