@@ -6,7 +6,7 @@
   "functions": {
     "api/index.py": {
       "maxDuration": 60,
-      "excludeFiles": "{.venv/**,artifacts/**,docs/**,outputs/**,backend/scripts/**,backend/data/ev_energy_consumption.csv,backend/model/*.pkl,backend/model/*.ubj,**/__pycache__/**,**/*.pyc}"
+      "excludeFiles": "{.venv/**,artifacts/**,docs/**,outputs/**,backend/scripts/**,backend/requirements-training.txt,backend/data/ev_energy_consumption.csv,backend/model/*.pkl,backend/model/*.ubj,**/__pycache__/**,**/*.pyc}"
     }
   }
 }

@@ -3,6 +3,7 @@ artifacts
 docs
 outputs
 backend/scripts
+backend/requirements-training.txt
 backend/data/ev_energy_consumption.csv
 backend/model/*.pkl
 backend/model/*.ubj
