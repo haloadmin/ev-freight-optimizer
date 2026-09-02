@@ -3,9 +3,16 @@
   "framework": "vite",
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api"
+    }
+  ],
   "functions": {
     "api/index.py": {
       "maxDuration": 60,
+      "includeFiles": "{backend/model/ev_best_model_compatible.json,backend/data/fixed_route_rest_areas.csv}",
       "excludeFiles": "{.venv/**,artifacts/**,docs/**,outputs/**,backend/scripts/**,backend/requirements-training.txt,backend/data/ev_energy_consumption.csv,backend/model/*.pkl,backend/model/*.ubj,**/__pycache__/**,**/*.pyc}"
     }
   }
